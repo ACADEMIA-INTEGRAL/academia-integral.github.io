@@ -1,2 +1,2 @@
-# academi-aintegral.github.io
+# academia-integral.github.io
 Academia Preuniversitaria de Alto Rendimiento.
