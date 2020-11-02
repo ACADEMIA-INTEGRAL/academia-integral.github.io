@@ -1,0 +1,295 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background: #E9EAEC;
+  /*background: red;*/
+}
+
+.cabecera_aula{
+  background: #0B317A;
+  /*display: flex;
+  position: fixed;
+  z-index: 4;*/
+  /*width: 100%;*/
+  width: 100vw;
+  /*height: 20vh;*/
+  height: 10vh;
+  /*line-height: 20vh;*/
+  /*line-height: 10vh;*/
+  line-height: 5vh;
+  color: #ffffff;
+  text-align: center;
+  font-size: 7vmin;
+}
+.cabecera_aula .academia_aula{
+  /*position: absolute;*/
+  padding-top: 2.5vh;
+  font-family: ethnocentric;
+}
+@font-face {
+  font-family: "ethnocentric";
+  src: url("../font/ethnocentric.ttf");
+}
+.lema_aula{
+  background: #0B317A;
+  /*display: flex;
+  position: fixed;
+  z-index: 4;*/
+  /*background: red;*/
+  /*width: 100%;*/
+  width: 100vw;
+  height: 10vh;
+  /*line-height: 20vh;*/
+  line-height: 10vh;
+  color: #ffffff;
+  text-align: center;
+  font-size: 5vmin;
+}
+
+
+.contenido_aula{
+  /*background: pink;*/
+  width: 100vw;
+  height: 80vh;
+  /*line-height: 40vh;*/
+  color: #ffffff;
+  text-align: center;
+  /*font-size: 7vmin;*/
+  font-size: 0vmin;
+}
+
+.presentacion_aula{
+  width: 100vw;
+  /*background: lime;*/
+  display: inline-flex;
+  height: 40vh;
+  line-height: 40vh;
+}
+
+.cursos_aula{
+  /*background: black;*/
+  /*background: #B5EECD;*/
+  background: #DCEFFE;
+  /*width: 50vw;*/
+  width: 100vw;
+}
+.cursos_aula p{
+  font-size: 3.5vmin;
+  line-height: 4vh;
+  text-align: justify;
+  margin: 4vmin;
+  color: black;
+}
+
+.navegacion_aula{
+  /*color: #9B8B99;*/
+  color: #0F2B8E;
+  /*background: #373277;*/
+  /*background: #B5EECD;*/
+  background: #DCEFFE;
+  display: block;
+  /*position: relative;*/
+  /*width: 50vW;*/
+  width: 100vw;
+  text-align: center;
+  /*margin: 0vmin;*/
+  /*border: none;*/
+  /*padding: 0.2vmin;*/
+}
+
+/* AQUÍ INICIA - NUEVA DISTRIBUCIÓN DE MENÚ DE NAVEGACIÓN*/
+.navegacion_aula .materia{
+  /*width: 9.6vw;*/
+  margin: 2vmin 3vmin 0vmin 3vmin;
+}
+/* AQUÍ FINALIZA - NUEVA DISTRIBUCIÓN DE MENÚ DE NAVEGACIÓN*/
+
+.navegacion_aula a{
+  text-decoration: none;
+  /*color: #9B8B99;*/
+  color: #0F2B8E;
+}
+.navegacion_aula a:hover{
+  /*background: gray;*/
+  background: white;
+  color: black;
+  transition: all 0.9s ease;
+}
+.navegacion_aula ul{
+  /*margin: 0vmin 0vmin;*/
+  line-height: 0vh;
+}
+.navegacion_aula li{
+  display: inline-block;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  list-style: none;
+  /*background: white;*/
+  font-size: 2.2vmin;
+  line-height: 4vh;
+  /*margin: 0.3vmin;*/
+  /*margin-left: 2.5vmin;*/
+  /*padding: 0.2vmin;*/
+}
+.navegacion_aula li:hover{
+  /*background: gray;*/
+  background: white;
+  color: black;
+  transition: all 0.9s ease;
+}
+.navegacion_aula li ul{
+  display: none;
+  margin-top: 0.3vmin;
+}
+.navegacion_aula li:hover > ul{
+  display: block;
+}
+.navegacion_aula li{
+  position: relative;
+  margin-top: 0.3vmin;
+}
+.navegacion_aula li ul{
+  position: absolute;
+}
+.navegacion_aula li li a:hover{
+  background: #2B8CBF;
+}
+.navegacion_aula li li:hover{
+  /*background: lime;*/
+  background: #2B8CBF;
+  color: black;
+  transition: all 0.2s ease;
+}
+
+
+
+
+.clase_aula{
+  /*background: yellow;*/
+  background: #E9EAEC;
+  width: 100vw;
+  display: inline-flex;
+  height: 40vh;
+  line-height: 40vh;
+}
+
+.material_aula{
+  /*background: blue;*/
+  background: #E9EAEC;
+  width: 50vw;
+  line-height: 50vw;
+  /*margin-top: -5vh;*/
+}
+.material_aula p{
+  font-size: 3.5vmin;
+  line-height: 4vh;
+  text-align: justify;
+  margin: 4vmin;
+  color: black;
+}
+#tema_semana{
+  font-size: 3.5vmin;
+  margin-bottom: 0vmin;
+}
+#fecha_presentacion{
+  font-size: 3.5vmin;
+  margin-bottom: 0vmin;
+}
+.material_aula a{
+  font-size: 3.5vmin;
+  line-height: 4vh;
+  text-align: justify;
+  margin: 4vmin;
+  text-decoration: none;
+  color: white;
+}
+.material_aula a:hover{
+  color: red;
+}
+.material_aula button{
+  background: #999999;
+  position: absolute;
+  border-radius: 0.5vw;
+  font-size: 2.6vmin;
+  line-height: 4vh;
+  margin: 0vmin;
+  border: none;
+  padding: 0.2vmin;
+}
+.material_aula button:hover{
+  background: lime;
+  color: black;
+  transform: scale(1.1);
+  transition: all .5s ease;
+}
+
+
+
+.poster_aula{
+  /*background: red;*/
+  /*background: #E9EAEC;*/
+  background: #E9F9F8;
+  width: 50vw;
+  /*margin-top: -4vh;*/
+  /*height: 40vh;*/
+  height: 0vh;
+  /*ESTO SE AGREGÓ PARA CENTRAR*/
+  /*line-height: 40vh;*/
+  line-height: 0vh;
+}
+
+.poster_aula img{
+  width: 50vw;
+  height: 40vh;
+  border-radius: 1vw;
+}
+
+
+
+
+.comunicate_aula{
+  /*background: #0B317A;*/
+  background: #2AC54E;
+  /*display: flex;
+  position: fixed;
+  z-index: 4;*/
+  /*background: red;*/
+  /*width: 100%;*/
+  width: 100vw;
+  /*height: 10vh;*/
+  height: 15vh;
+  /*line-height: 20vh;*/
+  /*line-height: 10vh;*/
+  line-height: 15vh;
+  color: white;
+  text-align: center;
+  font-size: 5vmin;
+  /*display: block;*/
+}
+.comunicate_aula p{
+  display: inline;
+  /*margin: -1vw 0vw;*/
+  /*text-align: center;*/
+}
+.comunicate_aula img{
+  margin: 2vmin 2vmin -1.5vmin 0vmin;
+  /*display: inline;*/
+  width: 6vmin;
+  height: 6vmin;
+}
+
+
+
+
+
+.video_aula{
+  /*background: black;*/
+  background: #2A2A2E;
+  width: 100vw;
+  /*height: 100vh;*/
+  height: 85vh;
+  border: none;
+}
