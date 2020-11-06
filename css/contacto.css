@@ -35,6 +35,7 @@
 @media (min-width: 321px) and (max-width: 480px) {
     .contacto{
         background: #2F2E3C;
+        background: red;
         display: flex;
     /*    nuevo position, width y z-index*/
         position: fixed;
