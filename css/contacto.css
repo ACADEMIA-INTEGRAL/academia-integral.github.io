@@ -46,8 +46,10 @@
         line-height: 0.9em;
     }
     .fono{
-        margin-right: 20px;
-        margin-left: 20px;
+/*        margin-right: 20px;*/
+/*        margin-left: 20px;*/
+        margin-right: 15px;
+        margin-left: 15px;
     }
     .fono img{
         width: 0.9em;
@@ -55,8 +57,10 @@
         margin-right: 10px;
     }
     .mail{
-        margin-right: 20px;
-        margin-left: 20px;
+/*        margin-right: 20px;*/
+/*        margin-left: 20px;*/
+        margin-right: 15px;
+        margin-left: 15px;
     }
     .mail img{
         width: 0.9em;
