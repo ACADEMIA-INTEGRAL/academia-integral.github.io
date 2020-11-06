@@ -1,0 +1,159 @@
+.pago_aula{
+    border-top: 2px solid #47484B;
+/*    border-top: 2px solid red;*/
+}
+
+
+@media (max-width: 320px) {
+    .pago_aula{
+        background: #FFFFFF;
+/*        background: red;*/
+        color: black;
+        height: 7em;
+        margin-top: -113px;
+        padding: 3px;
+        text-align: center;
+/*        nuevo*/
+        font-size: 0.8em;
+        line-height: 0.8em;
+    }
+    .card{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .card img{
+        width: 0.8em;
+        height: 0.8em;
+        margin-right: 10px;
+    }
+}
+
+
+
+@media (min-width: 321px) and (max-width: 480px) {
+    .pago_aula{
+        background: #FFFFFF;
+/*        background: red;*/
+        color: black;
+        height: 7em;
+        margin-top: -113px;
+        padding: 2px;
+        text-align: center;
+/*        nuevo*/
+        font-size: 0.9em;
+        line-height: 0.9em;
+    }
+    .card{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .card img{
+        width: 0.9em;
+        height: 0.9em;
+        margin-right: 10px;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .pago_aula{
+        background: #FFFFFF;
+/*        background: red;*/
+        color: black;
+        height: 7.5em;
+        margin-top: -113px;
+        padding: 2px;
+        text-align: center;
+/*        nuevo*/
+        font-size: 1em;
+        line-height: 1em;
+    }
+    .card{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .card img{
+        width: 1em;
+        height: 1em;
+        margin-right: 10px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .pago_aula{
+        background: #FFFFFF;
+/*        background: red;*/
+        color: black;
+        height: 8em;
+        margin-top: -113px;
+        padding: 2px;
+        text-align: center;
+/*        nuevo*/
+        font-size: 1.1em;
+        line-height: 1.1em;
+    }
+    .card{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .card img{
+        width: 1.1em;
+        height: 1.1em;
+        margin-right: 10px;
+    }
+}
+
+
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .pago_aula{
+        background: #FFFFFF;
+/*        background: red;*/
+        color: black;
+        height: 8em;
+        margin-top: -113px;
+        padding: 2px;
+        text-align: center;
+/*        nuevo*/
+        font-size: 1.1em;
+        line-height: 1.1em;
+    }
+    .card{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .card img{
+        width: 1.1em;
+        height: 1.1em;
+        margin-right: 10px;
+    }
+}
+
+
+
+
+@media (min-width: 1201px) {
+    .pago_aula{
+        background: #FFFFFF;
+/*        background: red;*/
+        color: black;
+        height: 8em;
+        margin-top: -118px;
+        padding: 2px;
+        text-align: center;
+/*        nuevo*/
+        font-size: 1.1em;
+        line-height: 1.1em;
+    }
+    .card{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .card img{
+        width: 1.1em;
+        height: 1.1em;
+        margin-right: 10px;
+    }
+}
+

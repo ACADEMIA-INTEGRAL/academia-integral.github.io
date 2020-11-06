@@ -1,0 +1,75 @@
+body{
+/*    background: pink;*/
+    margin: 0px;
+}
+
+/*
+p{
+    color: white;
+}
+*/
+
+
+
+
+/*
+.clase img{
+    width: 100%;
+    margin: 0px;
+    z-index: -5;
+}
+*/
+/*EFECTO PARALLAX*/
+.clase{
+    background-image: url(../img/academia.png);
+/*    height: 500px;*/
+    height: 680px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clase2{
+    background-image: url(../img/estudiante.png);
+/*    height: 500px;*/
+    height: 680px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+/*para contadores*/
+
+@keyframes aparecer{
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.ocultar{
+    opacity: 0;
+}
+
+.animar{
+    animation: aparecer 1.3s;
+}
+
+
+
+/*para quitar efecto de los enlaces*/
+.menu a{
+    text-decoration: none;
+    color: inherit;
+}
+
+

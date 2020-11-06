@@ -1,0 +1,101 @@
+.login{
+/*    background: red;*/
+/*    background: #CAEEF7;*/
+    background: none;
+/*    background-size: cover;*/
+/*    width: 100vw;*/
+/*    height: 85vh;*/
+/*    line-height: 20vh;*/
+    line-height: 10vh;
+/*    height: 87vh;*/
+/*    height: 91vh;*/
+/*    height: 84.2vh;*/
+/*    line-height: 20vh;*/
+    text-align: center;
+/*    background-image: url(../cursos/1.jpg);*/
+    margin-left: -8px;
+    margin-right: -8px;
+/*    margin-bottom: -42px;*/
+}
+
+.formulario{
+    background: white;
+/*    background: none;*/
+    border: 1px solid #e2e2e2;
+/*    border-radius: 1vw;*/
+    border-radius: 10px;
+/*    margin-top: 25vmin;*/
+/*    margin-top: 17vmin;*/
+/*    width: 150px;*/
+/*    height: 220px;*/
+/*    width: 36vw;*/
+/*    height: 36vh;*/
+    width: 40vmin;
+    height: 56vh;
+/*    max-width: 400px;*/
+    padding: 1px 25px 25px 25px;
+    text-align: center;
+    z-index: -1;
+/*    margin-top: -300px;*/
+}
+
+.formulario p{
+    color: black;
+/*    text-align: center;*/
+/*    font-size: 5vmin;*/
+/*    font-size: 4vmin;*/
+/*    font-size: 4vmin;*/
+    margin-top: 4vh;
+}
+
+form{
+    display: inline-table;
+/*    position: relative;*/
+/*    width: 100%;*/
+/*    max-height: auto;*/
+/*    font-size: 0.72em;*/
+/*    font-size: 1.5em;*/
+    font-size: 4.2vmin;
+}
+
+input{
+    display: block;
+/*    width: 25vw;*/
+    width: 34vmin;
+    font-size: 3.0vmin;
+    line-height: 4vh;
+    margin: auto auto 2vmin auto;
+/*    padding-left: 2vh;*/
+    padding: 1vh 2vh 1vh 2vh;
+    margin-bottom: 5vh;
+    appearance: textfield;
+/*    border-radius: 0.5vw;*/
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.login_boton{
+    color: #fff;
+    background: #337AB7;
+    border-color: #2e6da4;
+/*    border-radius: 0.5vw;*/
+    border-radius: 5px;
+/*    width: 15vw;*/
+    width: 25vmin;
+    font-size: 3.0vmin;
+    line-height: 4vh;
+/*    margin: auto;*/
+    margin-top: 5vh;
+    padding: 1vh 2vh 1vh 2vh;
+}
+
+.login_boton:hover{
+    background: #286090;
+}
+
+label{
+    font-size: 2.8vmin;
+    color: red;
+/*    margin: 10vh; */
+    line-height: 2vh;
+}

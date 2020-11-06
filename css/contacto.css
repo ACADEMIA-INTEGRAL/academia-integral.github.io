@@ -1,0 +1,225 @@
+@media (max-width: 320px) {
+    .contacto{
+        background: #2F2E3C;
+        display: flex;
+    /*    nuevo position, width y z-index*/
+        position: fixed;
+        width: 100%;
+        z-index: 3;
+    /*    fin de nuevo position, width y z-index*/
+        color: white;
+        font-size: 0.8em;
+        line-height: 0.8em;
+    }
+    .fono{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .fono img{
+        width: 0.8em;
+        height: 0.8em;
+        margin-right: 10px;
+    }
+    .mail{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .mail img{
+        width: 0.8em;
+        height: 0.8em;
+        margin-right: 10px;
+    }
+}
+
+
+@media (min-width: 321px) and (max-width: 480px) {
+    .contacto{
+        background: #2F2E3C;
+        display: flex;
+    /*    nuevo position, width y z-index*/
+        position: fixed;
+        width: 100%;
+        z-index: 3;
+    /*    fin de nuevo position, width y z-index*/
+        color: white;
+        font-size: 0.9em;
+        line-height: 0.9em;
+    }
+    .fono{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .fono img{
+        width: 0.9em;
+        height: 0.9em;
+        margin-right: 10px;
+    }
+    .mail{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .mail img{
+        width: 0.9em;
+        height: 0.9em;
+        margin-right: 10px;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .contacto{
+        background: #2F2E3C;
+        display: flex;
+    /*    nuevo position, width y z-index*/
+        position: fixed;
+        width: 100%;
+        z-index: 3;
+    /*    fin de nuevo position, width y z-index*/
+        color: white;
+        font-size: 1em;
+        line-height: 1em;
+    }
+    .fono{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .fono img{
+        width: 1em;
+        height: 1em;
+        margin-right: 10px;
+    }
+    .mail{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .mail img{
+        width: 1em;
+        height: 1em;
+        margin-right: 10px;
+    }
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .contacto{
+        background: #2F2E3C;
+        display: flex;
+    /*    nuevo position, width y z-index*/
+        position: fixed;
+        width: 100%;
+        z-index: 3;
+    /*    fin de nuevo position, width y z-index*/
+        color: white;
+        font-size: 1.1em;
+        line-height: 1.1em;
+    }
+    .fono{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .fono img{
+        width: 1.1em;
+        height: 1.1em;
+        margin-right: 10px;
+    }
+    .mail{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .mail img{
+        width: 1.1em;
+        height: 1.1em;
+        margin-right: 10px;
+    }
+}
+
+
+
+
+
+/* AQUÍ SE REPITE SIN VARIACIÓN */
+/* AQUÍ SE REPITE SIN VARIACIÓN */
+/* AQUÍ SE REPITE SIN VARIACIÓN */
+/* AQUÍ SE REPITE SIN VARIACIÓN */
+/* AQUÍ SE REPITE SIN VARIACIÓN */
+/* AQUÍ SE REPITE SIN VARIACIÓN */
+/* AQUÍ SE REPITE SIN VARIACIÓN */
+/* AQUÍ SE REPITE SIN VARIACIÓN */
+/* AQUÍ SE REPITE SIN VARIACIÓN */
+
+
+
+
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .contacto{
+        background: #2F2E3C;
+        display: flex;
+    /*    nuevo position, width y z-index*/
+        position: fixed;
+        width: 100%;
+        z-index: 3;
+    /*    fin de nuevo position, width y z-index*/
+        color: white;
+        font-size: 1.1em;
+        line-height: 1.1em;
+    }
+    .fono{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .fono img{
+        width: 1.1em;
+        height: 1.1em;
+        margin-right: 10px;
+    }
+    .mail{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .mail img{
+        width: 1.1em;
+        height: 1.1em;
+        margin-right: 10px;
+    }
+}
+
+
+
+@media (min-width: 1201px) {
+    .contacto{
+        background: #2F2E3C;
+        display: flex;
+    /*    nuevo position, width y z-index*/
+        position: fixed;
+        width: 100%;
+        z-index: 3;
+    /*    fin de nuevo position, width y z-index*/
+        color: white;
+        font-size: 1.1em;
+        line-height: 1.1em;
+    }
+    .fono{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .fono img{
+        width: 1.1em;
+        height: 1.1em;
+        margin-right: 10px;
+    }
+    .mail{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .mail img{
+        width: 1.1em;
+        height: 1.1em;
+        margin-right: 10px;
+    }
+}
+
+
+
+
